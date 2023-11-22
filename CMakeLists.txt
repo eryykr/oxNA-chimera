@@ -1,3 +1,4 @@
+
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
 if(POLICY CMP0054)
@@ -5,7 +6,7 @@ if(POLICY CMP0054)
 endif()
 
 if(POLICY CMP0037)
-        cmake_policy(SET CMP0037 OLD)
+	cmake_policy(SET CMP0037 OLD)
 endif()
 
 # this is required when working with newer gcc versions (> 5.4)
